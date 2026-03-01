@@ -1,74 +1,63 @@
-# 18 - Ética y Deontología Profesional
+# 18 - Dispositivos Remotos e Internet de las cosas
 
 ## 📋 Información de Cursada
-* **Carga Horaria**: 48 horas totales.
-* **Distribución**: 24 hs Teóricas / 24 hs Prácticas.
-* **Correlativas para cursar**: Ninguna.
-* **Correlativas que abre**: Ninguna (Materia de formación transversal ética).
+* **Carga Horaria**: 64 horas totales.
+* **Distribución**: 32 hs Teóricas / 32 hs Prácticas.
+* **Régimen**: Cuatrimestral (2do Cuatrimestre - 2do Año).
+* **Modalidad de dictado**: A Distancia.
 
 ---
 
 ## 🎯 Objetivos de Aprendizaje
-* Comprender los fundamentos de la ética general y su aplicación específica en las tecnologías de la información.
-* Analizar la responsabilidad profesional y social del experto en ciberdefensa.
-* Evaluar dilemas éticos relacionados con la privacidad, la vigilancia, la propiedad intelectual y el acceso a la información.
-* Conocer y aplicar los códigos de ética de las principales asociaciones profesionales internacionales (ACM, IEEE).
+* Adquirir habilidad en la detección de vulnerabilidades en los procesos de programación y diseño de las interfaces físicas y digitales de los dispositivos remotos.
+* Conocer la organización y estructura de los sistemas basados en Internet de las Cosas (IoT).
 
 ---
 
 ## 📚 Contenidos Mínimos y Mapeo de Bibliografía
 
-### Unidad 1: Fundamentos de la Ética y la Tecnología
-* **Temas**: Teorías éticas clásicas (utilitarismo, deontología, ética de la virtud). La singularidad de la "Ética Informática". El impacto de la automatización en la moral humana.
-* **Mapeo**:
-    * **Sara Baase**: Cap. 1 (Unlocking the Future).
-    * **Deborah Johnson**: Cap. 1 (Introduction to Computer Ethics).
-    * **Luciano Floridi**: "The Fourth Revolution" (Introducción).
+### Unidad 1: Fundamentos y Superficie de Ataque
+* **Temas**: Vulnerabilidades en procesos de diseño. Distribución, adopción y dependencia tecnológica. Riesgos de privacidad y seguridad en el ecosistema IoT.
+* **Mapeo de Bibliografía**:
+    * **Bruce Schneier**: "Click Here to Kill Everybody" (Seguridad en un mundo hiperconectado).
+    * **OWASP**: "IoT Top 10" (Principales vulnerabilidades y vectores de ataque).
 
-### Unidad 2: Responsabilidad Profesional y Códigos de Conducta
-* **Temas**: El profesional frente a la organización y la sociedad. Confidencialidad y conflictos de interés. Códigos de ética de la ACM y IEEE.
-* **Mapeo**:
-    * **IEEE/ACM**: Software Engineering Code of Ethics and Professional Practice.
-    * **Deborah Johnson**: Cap. 3 (Professional Ethics).
+### Unidad 2: Vehículos No Tripulados y Controles Remotos
+* **Temas**: Vehículos No Tripulados: Aeronaves (drones), embarcaciones y transporte no tripulado. Controles remotos y protocolos de comunicación.
+* **Mapeo de Bibliografía**:
+    * **Kimberly Graves**: "CEH Certified Ethical Hacker Study Guide" (Secciones de seguridad en dispositivos remotos y móviles).
+    * **NIST**: "Framework for Cyber-Physical Systems".
 
-### Unidad 3: Privacidad, Vigilancia y Datos Personales
-* **Temas**: El derecho a la privacidad en la era digital. Vigilancia estatal vs. seguridad nacional. Ética en el tratamiento de grandes volúmenes de datos (Big Data).
-* **Mapeo**:
-    * **Sara Baase**: Cap. 2 (Privacy).
-    * **Nissenbaum**: "Privacy in Context".
+### Unidad 3: Dispositivos Inteligentes y Vida Cotidiana
+* **Temas**: Relojes inteligentes (Wearables), telefonía celular, televisores inteligentes, parlantes inteligentes. Candados, cerraduras y termostatos inteligentes.
+* **Mapeo de Bibliografía**:
+    * **Abhijit Das & Anita Gehlot**: "Security and Privacy Issues in IoT".
+    * **Perry Lea**: "IoT and Edge Computing for Architects".
 
-### Unidad 4: Propiedad Intelectual y Ciberdelincuencia
-* **Temas**: Ética en el software libre y propietario. Patentes y derechos de autor. Análisis moral de las conductas de hacking y ciberactivismo.
-* **Mapeo**:
-    * **Sara Baase**: Cap. 4 (Intellectual Property) y Cap. 5 (Crime).
-    * **Deborah Johnson**: Cap. 6 (Property Rights in Computer Software).
-
-### Unidad 5: Ética en la Ciberdefensa y la Guerra Digital
-* **Temas**: Límites éticos de la defensa activa. Responsabilidad en el desarrollo de armas cibernéticas. Transparencia y rendición de cuentas en operaciones de defensa.
-* **Mapeo**:
-    * **George Lucas**: "Ethics and Cyber Warfare".
-    * **Recursos**: Declaración de Tallinn 2.0 (secciones sobre ética).
+### Unidad 4: Desafíos Críticos del Ecosistema
+* **Temas**: Problemas de interoperabilidad. Sobrecarga de datos. Costo y complejidad de implementación. Desafíos regulatorios y legales.
+* **Mapeo de Bibliografía**:
+    * **European Union Agency for Cybersecurity (ENISA)**: "Good Practices for IoT and Smart Infrastructures".
+    * **NIST SP 800-213**: "IoT Device Cybersecurity Guidance".
 
 ---
 
 ## 📝 Bitácora de Seguimiento
-- [ ] **Unidad 1**: [ ] Diferencia entre Ética y Moral entendida | [ ] Dilema del Tranvía aplicado a IA.
-- [ ] **Unidad 2**: [ ] Lectura completa del código ACM/IEEE | [ ] Análisis de conflictos de interés.
-- [ ] **Unidad 3**: [ ] Concepto de Privacidad Contextual | [ ] Debate: Seguridad vs. Privacidad.
-- [ ] **Unidad 4**: [ ] Tipos de licencias (GPL, MIT, Propietarias) | [ ] Moralidad del "Whistleblowing".
-- [ ] **Unidad 5**: [ ] Principios de necesidad y proporcionalidad en ciberdefensa.
-- [ ] **Parcial/Ensayo**: [ ] Fecha confirmada | [ ] Nota: ___.
+- [ ] **Unidad 1**: [ ] Análisis de protocolos IoT (MQTT/CoAP) | [ ] Identificación de vectores de ataque físicos.
+- [ ] **Unidad 2**: [ ] Seguridad en enlaces de Drones | [ ] Simulación de intercepción de señales remotas.
+- [ ] **Unidad 3**: [ ] Auditoría de una Smart TV o Parlante | [ ] Riesgos en Wearables analizados.
+- [ ] **Unidad 4**: [ ] Estudio de normativas legales | [ ] Desafíos de escalabilidad en redes IoT.
+- [ ] **Parcial**: [ ] Fecha confirmada | [ ] Nota: ___.
 
 ---
 
 ## 📖 Bibliografía de Elite Recomendada
-1. **Sara Baase - "A Gift of Fire: Social, Legal, and Ethical Issues for Computing"**: El texto más completo y actualizado sobre el impacto social y ético de la informática.
-2. **Deborah G. Johnson - "Computer Ethics"**: Un clásico académico que profundiza en la filosofía detrás de los dilemas tecnológicos.
-3. **Luciano Floridi - "The Fourth Revolution: How the Infosphere is Reshaping Human Reality"**: Obra de elite para entender la ética de la información en el siglo XXI.
-4. **George Lucas - "Ethics and Cyber Warfare"**: Referencia fundamental para profesionales en el ámbito de la defensa y la seguridad estatal.
+1. **OWASP IoT Project**: La referencia estándar de la industria para identificar y mitigar riesgos en dispositivos IoT.
+2. **Bruce Schneier - "Click Here to Kill Everybody"**: Una visión de elite sobre las implicancias de seguridad de tener todo conectado a internet.
+3. **Perry Lea - "IoT and Edge Computing for Architects"**: Excelente para entender la estructura técnica y de red de los sistemas distribuidos.
+4. **NIST (National Institute of Standards and Technology)**: Documentación oficial sobre la seguridad en sistemas ciber-físicos y dispositivos IoT.
 
 ---
 
 ## ⚖️ Condición de Aprobación
-* **Promoción Directa**: Mínimo **7** en exámenes parciales o ensayos de análisis de casos.
-* **Examen Final**: Mínimo **4** para regularizar y habilitar el examen final oral o escrito.
+* **Régimen**: Evaluación mediante parciales y laboratorios de detección de vulnerabilidades en hardware o simuladores de IoT.
